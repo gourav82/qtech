@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: krub;
+  }
+
+  .hide{
+    &--mobile{
+    @include max(1024) { 
+        display: none !important;
+    }
+  }
+  &--desktop{
+    @include min(1024) { 
+        display: none !important;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+    {"title": "Tripod tripod with selfie light, wireless shutter release",
+"avg_review": 3,
+"cont_review": 1,
+"mrp": 17.99,
+"selling_price": 17.99,
+"variable": false,
+"min_price": 0,
+"max_price": 0,
+"currency":"$",
+"qty": 20,
+"images": ["/assets/p1.jpg","/assets/p1.jpg",
+            "/assets/p1.jpg"
+        ]
+    },
+    {"title": "Tech-Protect - Marble 2 case for iPhone 12_12 Pro, pink",
+"avg_review": 5,
+"cont_review": 1,
+"mrp": 9.99,
+"selling_price": 7.99,
+"variable": false,
+"min_price": 0,
+"max_price": 0,
+"currency":"$",
+"qty": 20,
+"images": ["/assets/p2.jpg","/assets/p2.jpg"
+        ]
+    },
+    {"title": "Spigen - Optik Crystal Case for iPhone 12, chrome",
+"avg_review": 5,
+"cont_review": 1,
+"mrp": 24.48,
+"selling_price": 13.88,
+"variable": false,
+"min_price": 0,
+"max_price": 0,
+"currency":"$",
+"qty": 20,
+"images": ["/assets/p3.jpg","/assets/p3.jpg",
+            "/assets/p3.jpg","/assets/p3.jpg",
+            "/assets/p3.jpg"
+        ]
+    },
+    {"title": "Spigen - Case Ultra Hybrid with MagSafe for 13 Pro Max",
+"avg_review": 4,
+"cont_review": 1,
+"mrp": 9.99,
+"selling_price": 7.99,
+"variable": true,
+"min_price": 14.45,
+"max_price": 21.99,
+"currency":"$",
+"qty": 20,
+"images": ["/assets/p4.jpg","/assets/p4.jpg",
+            "/assets/p4.jpg","/assets/p4.jpg",
+            "/assets/p4.jpg"
+        ]
+    },
+    {"title": "Spigen - Case Ultra Hybrid with MagSafe for 12 Pro",
+"avg_review": 5,
+"cont_review": 1,
+"mrp": 27.99,
+"selling_price": 18.99,
+"variable": false,
+"min_price": 0,
+"max_price": 0,
+"currency":"$",
+"qty": 20,
+"images": ["/assets/p5.jpg","/assets/p5.jpg"
+        ]
+    }
+    ,{"title": "Tripod tripod with selfie light, wireless shutter release",
+    "avg_review": 4,
+    "cont_review": 1,
+    "mrp": 17.99,
+    "selling_price": 17.99,
+    "variable": false,
+    "min_price": 0,
+    "max_price": 0,
+    "currency":"$",
+    "qty": 0,
+    "images": ["/assets/p1.jpg","/assets/p1.jpg",
+                "/assets/p1.jpg"
+            ]
+        }
+]

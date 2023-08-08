@@ -1,0 +1,30 @@
+.product-card{
+    width: 100%;    
+    margin: 0 auto;
+    padding: 10px;
+.product{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+ 
+    &--cardimg{
+        position: relative;
+        &-icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            li{
+                list-style: none;
+                background-color: rgb(254, 254, 254);
+                border: 1px solid rgb(245, 243, 243);
+                margin-top: 7px;
+                width: 30px;
+                height: 29px;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+}

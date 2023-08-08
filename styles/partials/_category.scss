@@ -1,0 +1,35 @@
+.category{
+    @include max(1024) {
+        flex-direction: column;
+    }
+    &--wrap{
+        border: 1px solid rgb(208, 206, 206);
+        border-radius: 10px;
+        padding: 15px 0;
+        width: calc(100%/3 - 10px);
+        @include max(1024) {
+            width: 100%;
+            margin-top: 10px;
+
+        }
+        img{
+            border: 1px solid rgb(208, 206, 206);
+            border-radius: 10px;
+            margin: 0 30px;
+        }
+        &-details{
+          ul{
+            padding-left: 0;
+            color: rgb(165, 165, 165);
+            li{
+                list-style: none;
+            }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            color: red;
+        }
+        }
+    }
+}

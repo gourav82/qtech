@@ -1,0 +1,127 @@
+.tab{
+    border-bottom: 1px solid rgb(218, 216, 216);
+    padding-bottom: 20px;
+   &--wrap{
+    @include max(1024) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+    &-item{
+        background-color: rgb(219, 217, 217);
+        margin-bottom: 0;
+        padding-left: 0;
+        border-radius: 7px;
+        margin-left: 20px;
+        @include max(1024) {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+        }
+        li{
+            list-style: none;
+            padding: 4px 10px 8px 10px;
+            cursor: pointer;
+            @include max(1024) {
+            font-size: 13px;
+            }
+        }
+    }
+   }
+}
+
+.active{
+    background: linear-gradient(to right, #f00606, #de8927 );
+        border-radius: 7px;
+    color: white;
+}
+.star-active{
+    color: rgb(235, 235, 12);
+}
+.cardDetails{
+    &--head{
+        @include max(1024) {
+            font-size: 18px;
+            }
+    }
+    &--star{
+        ul{
+            padding-left: 0;
+            margin-bottom: 0;
+            padding-right: 10px;
+            li{
+                list-style: none;
+                margin-right: 5px;
+            }
+        }
+    }
+    &--price{
+        .actual{
+            color: grey;
+            text-decoration: line-through;
+        }
+        .mrp{
+        color: red;
+        }
+        .addToCart{
+            background-color: rgb(243, 240, 240);
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+    }
+    &--stock{
+        .inStock{
+            color: green;
+        }
+        .outStock{
+            color: red;
+        }
+    }
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 30% !important;
+    display: block;
+    width: 30px !important;
+    height: 40px !important;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: black !important;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgb(247, 249, 247) !important;
+    box-shadow: 0px 3px 20px -5px grey;
+}
+
+.slick-prev {
+    left: -5px !important;
+    z-index: 999;
+    
+}
+.slick-next {
+    right: -5px !important;
+    z-index: 999;
+}
+.slick-next:before {
+    content: '\203A' !important;
+}
+.slick-prev:before {
+    content: '\2039' !important;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 0 !important;
+    opacity: .75;
+    color: rgb(7, 7, 7) !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

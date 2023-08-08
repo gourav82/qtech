@@ -1,0 +1,16 @@
+.clients{
+    @include max(1024) {
+        padding: 0;
+    }
+    ul{
+        li{
+            list-style: none;
+        }
+        @include max(1024) {
+            width: 100%;
+            overflow: auto;
+            white-space: nowrap;
+            padding-left: 0;
+        }
+    }
+}

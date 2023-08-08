@@ -1,0 +1,67 @@
+.hero{
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    &--content{
+        width: 42%;
+        position: absolute;
+        margin: auto;
+        h1{
+            @include max(1024) { 
+                font-size: 18px !important; 
+            }
+        }
+        .installation{
+            @include max(1024) { 
+            font-size: 12px;
+            } 
+        }
+        @include max(1024) { 
+        width: 95%;
+        }
+        .premier{
+            background-color: red;
+            padding: 3px;
+            border-radius: 10px;
+            color: white;
+            font-size: 10px;
+            font-weight: 600;
+        }
+        h1{
+        font-size: 48px;
+        font-weight: 700;
+        }
+        p{
+            small{
+                color: rgb(214, 208, 208);
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
+.slick-dots {
+    :first-child{
+        border-radius: 5px 0 0 5px;
+    }
+    :last-child{
+        border-radius: 0 5px 5px 0;
+ 
+    }
+    li {
+    margin: 0 !important;
+    background-color: rgb(251, 249, 249);
+    bottom: 15px;
+    box-shadow: 6px 0  -4px -2px rgb(16, 16, 16);
+
+}
+
+}
+.slick-active{
+
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(233, 8, 8) !important;
+}

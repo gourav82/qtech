@@ -1,0 +1,106 @@
+.header{
+    height: 50px;
+    border-bottom: 1px solid rgb(242, 240, 240);
+   
+    &--menu{
+        @include max(1024) { 
+            padding: 0 ;
+          }
+        :first-child{
+            padding-left: 0;
+            
+        }
+
+        &-item{
+            margin-bottom: 0;
+            
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            li{
+                list-style: none;
+                margin-right: 15px;
+            }
+            :last-child{
+                margin-right: 0;
+
+            }
+        }
+    }
+}
+   
+
+
+.header-bottom{
+    border-bottom: 1px solid rgb(242, 240, 240);
+.search{
+    @include max(1024) { 
+        flex-wrap: wrap;
+       }
+    &--logo{
+        @include max(1024) { 
+          width: 100%;
+          padding: 0 10px;
+        }
+
+       .menudown{
+        background-color: rgb(240, 238, 238);
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    }
+    &--input{ 
+        @include max(1024) { 
+            width: 95%;
+            margin-top: 20px;
+          }
+        input{
+        width: 100%;
+        padding: 5px 5px 7px 5px;
+        border-radius: 10px;
+      &-icon{
+        margin-left: 20px;
+      }
+    }
+    &-icon{
+      font-size: 20px;
+      padding: 2px;
+      margin-right: 10px;
+    }
+    }
+    &--login{
+        @include max(1024) { 
+            width: 100%;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 13px;
+            display: flex;
+            justify-content: space-between !important;
+          }
+      li{
+        list-style: none;
+        @include max(1024) { 
+            display: flex;
+            justify-content: end;
+            align-items: center;
+          }
+        .cart{
+            background-color: #b10e0e;
+            color: white;
+            position: absolute;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 0;
+            right: -10px;
+           width: 20px;
+           height: 20px;
+        }
+      }
+    }
+}
+}
